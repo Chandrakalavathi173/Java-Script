@@ -1,0 +1,80 @@
+body{
+    margin-top: 0px;
+}
+*{
+    padding: 10px;
+}
+.to-do-container{
+    background-color: rgb(172, 172, 172);
+    margin-top: 10px;
+    min-height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border: 3px solid rgb(0, 0, 0);
+    row-gap: 5px;
+}
+p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+input{
+    height: 5%;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.todos-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    min-height: 70%;
+}
+.label-container{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 80%;
+    border: 3px solid black;
+    border-left: 15px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+
+}
+.task-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    justify-content: center;
+    column-gap: 5px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+label{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+img{
+    height: 25px;
+    width: 25px
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+.checked{
+    text-decoration: line-through;
+}
